@@ -22,7 +22,7 @@ Pre-requisites: [git](https://git-scm.com/) and [Docker](https://www.docker.com/
 
 1. Get the code: `git clone https://github.com/derekwlms/jupyter-notebooks.git`
 2. `cd jupyter-notebooks`
-3. `docker run -d -p 8888:8888 derekwlms/jupyter-notebook`
+3. `docker run -p 8888:8888 derekwlms/jupyter-notebook`
 4. [Open jupyter in your browser](http://localhost:8888). Login with the authentication token written to the docker logs.
 5. Upload the notebooks from this repo.
 
@@ -32,7 +32,6 @@ Not much here, but released under the [ISC License](https://opensource.org/licen
 ## TODO
 
 - Add remaining notebooks (the ones that can be shared)
-- Update readme
 - Add links through nbviewer
 - Try a smaller base image. scipy is 1.32 GB.
 - CI docker image build, maybe include notebooks for quick start

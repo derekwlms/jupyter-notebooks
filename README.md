@@ -2,10 +2,13 @@
 
 A random collection of some of my Jupyter notebooks with supporting files.
 
+![](https://github.com/derekwlms/jupyter-notebooks/workflows/CI/badge.svg)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/derekwlms/jupyter-notebooks/master)
 
 ---
 
 ## Quick Start
+
 
 Just open any of the ipynb files; GitHub will statically render them.
 You can also view them in [nbviewer](https://nbviewer.jupyter.org/).
@@ -34,4 +37,4 @@ Not much here, but released under the [ISC License](https://opensource.org/licen
 
 - Add remaining notebooks (the ones that can be shared)
 - Try a smaller base image. scipy is 1.32 GB.
-- CI docker image build, maybe include notebooks for quick start
+- Update CI docker image build to include notebooks for quick start

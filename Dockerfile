@@ -5,9 +5,9 @@
 FROM jupyter/scipy-notebook:latest
 
 # Leave out the files for now, to allow quick changes 
-# RUN mkdir src
-# WORKDIR src/
-# COPY . .
+RUN mkdir src
+WORKDIR src/
+COPY ./notebooks .
 
 COPY requirements.txt /tmp/
 

@@ -37,4 +37,3 @@ Not much here, but released under the [ISC License](https://opensource.org/licen
 
 - Add remaining notebooks (the ones that can be shared)
 - Try a smaller base image. scipy is 1.32 GB.
-- Update CI docker image build to include notebooks for quick start
